@@ -18,7 +18,7 @@ header{
     color: #ffffff;
     justify-items: center;
     position: relative;
-    margin: 0px 124px 149px 156px;
+    margin: 0px 124px 20px 156px;
   padding-top: 42px;
    
 }
@@ -57,11 +57,11 @@ header{
  
 }
 .banner-half{
-    margin: 50px 0;
+    margin: 29px 0;
     padding: 0 51px;
 }
 .banner-half:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: 1s;
 }
 .banner-half p{
@@ -196,22 +196,23 @@ hr{
 }
 .best-player{
     display: flex;
-    padding: 50px;
-    margin: 30px;
+    padding: 5px;
+    margin: 15px;
 }
 .best-player:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s;
     background-color: lightblue;
 }
 .best-players img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     padding: 20px;
 }
 .player-details{
     text-align: right;
     line-height:50px ;
+    padding: 20px;
     
     
 }
