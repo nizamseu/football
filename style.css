@@ -142,7 +142,44 @@ header{
 
 
 }
-
+/* match schedule */
+.match-schedules{
+    background-color:#151C35 ;
+    color: #ffffff;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.match-schedule{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+hr{
+    margin: 20px;
+}
+.schedule{
+    text-align: center;
+    margin: 50px;
+   
+}
+.schedule:hover{
+    transform: scale(1.4);
+    transition: 1s;
+    background-color: #242A42;
+}
+.schedule-time{
+    display: flex;
+    
+}
+.schedule-time img{
+    width: 130px;
+    height: 130px;
+}
+.vs{
+    margin: 15px;
+}
 /* footer  */
 footer{
     display: flex;
