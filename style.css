@@ -60,6 +60,10 @@ header{
     margin: 50px 0;
     padding: 0 51px;
 }
+.banner-half:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
 .banner-half p{
     font-size: 64px;
     color: #ffffff;
